@@ -1,39 +1,110 @@
-INFO] 2013-09-25 15:58:29.238 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : this file .
+[INFO] 2013-09-25 15:58:29.238 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : this file .
 [INFO] 2013-09-25 15:58:29.373 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : conectado!
 [INFO] 2013-09-25 15:58:29.374 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : this file .
 [ERROR] 2013-09-25 15:58:29.400 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : java.io.IOException: Remote SCP error: scp: /Users/dnoseda/dev/Mkttools/mkttools-api/job/test/TEST_DIR/20130917050000_TO_20130918050000/BRAZNEW/BOUNCES.csv: No such file or directory
-java.io.IOException: Remote SCP error: scp: /Users/dnoseda/dev/Mkttools/mkttools-api/job/test/TEST_DIR/20130917050000_TO_20130918050000/BRAZNEW/BOUNCES.csv: No such file or directory
-	at ch.ethz.ssh2.SCPInputStream.<init>(SCPInputStream.java:55)
-	at ch.ethz.ssh2.SCPClient.get(SCPClient.java:230)
-	at job.EmarsysUploaderJob$$EOITz16e.getSSHFile(EmarsysUploaderJob.groovy:60)
-	at job.EmarsysUploaderJob$_execute_closure1_closure3_closure4$$EOITz16e.doCall(EmarsysUploaderJob.groovy:178)
-	at job.EmarsysUploaderJob$_execute_closure1_closure3$$EOITz16e.doCall(EmarsysUploaderJob.groovy:176)
-	at job.EmarsysUploaderJob$_execute_closure1$$EOITz16e.doCall(EmarsysUploaderJob.groovy:174)
-	at job.EmarsysUploaderJob$$EOITz16e.execute(EmarsysUploaderJob.groovy:172)
-	at grails.plugins.quartz.GrailsJobFactory$GrailsJob.execute(GrailsJobFactory.java:89)
-	at grails.plugins.quartz.QuartzDisplayJob.execute(QuartzDisplayJob.groovy:29)
-	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
-	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:557)
-[INFO] 2013-09-25 15:58:29.401 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 20130917050000_TO_20130918050000/BRAZNEW/BOUNCES.csv not exist
-[INFO] 2013-09-25 15:58:29.402 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : connection created
-[INFO] 2013-09-25 15:58:29.436 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : connectioninfo [serverHostKey:[0, 0, 0, 7, 115, 115, 104, 45, 114, 115, 97, 0, 0, 0, 3, 1, 0, 1, 0, 0, 1, 1, 0, -61, -91, 53, -124, -59, -89, -30, 48, 1, -108, 42, -85, 102, -1, -37, -87, -94, 39, -69, 9, 16, 112, -77, -61, -59, 94, -93, -116, -58, -73, 127, 115, -123, -25, 4, 102, -104, 121, -31, -2, -123, 13, -56, 78, 50, 79, 101, 38, 114, 43, 23, -114, 2, -112, 43, -30, 96, -101, -11, 90, 20, -31, -42, -57, -55, -103, 119, 90, -40, -18, 85, -103, -65, 17, 122, -24, 66, -66, 93, 100, -119, 22, -21, -65, 41, -23, -100, -16, 86, 80, -14, -23, -92, 15, 9, 115, 15, 76, -71, 102, 6, 24, -87, -78, 127, -94, 56, -40, 61, 111, 6, 83, -95, -31, -115, 101, -70, -17, 69, 46, 102, 14, -97, 7, -55, -18, -120, 85, 65, -69, -87, 36, 21, 101, 33, -28, -24, 33, 38, -93, 109, -87, 63, 38, -86, 19, 127, -33, 64, 59, 67, 51, 71, 9, 60, -11, 43, 58, -51, 6, -42, -48, 15, 36, -68, 71, 56, -106, 40, -6, 122, 2, 102, -62, -100, -121, -67, -120, -103, 19, 36, 37, -34, -7, -57, 0, -26, -95, -128, 77, -102, -29, 3, -118, 5, 14, 105, 90, 11, 53, 110, 3, 123, 114, 53, 65, -51, 83, -6, -3, -29, 41, 111, 36, 1, -115, -1, -61, 108, 7, -108, 86, 19, -41, -38, 112, -127, 68, -61, -34, -118, 55, -116, 92, -128, -19, -112, 74, -46, 8, 32, 11, 11, 15, -57, 44, -81, 53, 58, -9, 42, 76, 64, -39, -22, -117], keyExchangeCounter:1, clientToServerCryptoAlgorithm:aes128-ctr, clientToServerMACAlgorithm:hmac-sha1-96, keyExchangeAlgorithm:diffie-hellman-group-exchange-sha1, serverHostKeyAlgorithm:ssh-rsa, serverToClientCryptoAlgorithm:aes128-ctr, serverToClientMACAlgorithm:hmac-sha1-96]
-[INFO] 2013-09-25 15:58:29.436 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : this file .
-[INFO] 2013-09-25 15:58:29.567 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : conectado!
-[INFO] 2013-09-25 15:58:29.567 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : this file .
-[ERROR] 2013-09-25 15:58:29.595 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : java.io.IOException: Remote SCP error: scp: /Users/dnoseda/dev/Mkttools/mkttools-api/job/test/TEST_DIR/20130917050000_TO_20130918050000/BRAZNEW/COMPLAINTS.csv: No such file or directory
-java.io.IOException: Remote SCP error: scp: /Users/dnoseda/dev/Mkttools/mkttools-api/job/test/TEST_DIR/20130917050000_TO_20130918050000/BRAZNEW/COMPLAINTS.csv: No such file or directory
-	at ch.ethz.ssh2.SCPInputStream.<init>(SCPInputStream.java:55)
-	at ch.ethz.ssh2.SCPClient.get(SCPClient.java:230)
-	at job.EmarsysUploaderJob$$EOITz16e.getSSHFile(EmarsysUploaderJob.groovy:60)
-	at job.EmarsysUploaderJob$_execute_closure1_closure3_closure4$$EOITz16e.doCall(EmarsysUploaderJob.groovy:178)
-	at job.EmarsysUploaderJob$_execute_closure1_closure3$$EOITz16e.doCall(EmarsysUploaderJob.groovy:176)
-	at job.EmarsysUploaderJob$_execute_closure1$$EOITz16e.doCall(EmarsysUploaderJob.groovy:174)
-	at job.EmarsysUploaderJob$$EOITz16e.execute(EmarsysUploaderJob.groovy:172)
-	at grails.plugins.quartz.GrailsJobFactory$GrailsJob.execute(GrailsJobFactory.java:89)
-	at grails.plugins.quartz.QuartzDisplayJob.execute(QuartzDisplayJob.groovy:29)
-	at org.quartz.core.JobRunShell.run(JobRunShell.java:213)
-	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:557)
-[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 20130917050000_TO_20130918050000/BRAZNEW/COMPLAINTS.csv not exist
-[INFO] 2013-09-25 15:58:29.599 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : connection created
-[INFO] 2013-09-25 15:58:29.635 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : connectioninfo [serverHostKey:[0, 0, 0, 7, 115, 115, 104, 45, 114, 115, 97, 0, 0, 0, 3, 1, 0, 1, 0, 0, 1, 1, 0, -61, -91, 53, -124, -59, -89, -30, 48, 1, -108, 42, -85, 102, -1, -37, -87, -94, 39, -69, 9, 16, 112, -77, -61, -59, 94, -93, -116, -58, -73, 127, 115, -123, -25, 4, 102, -104, 121, -31, -2, -123, 13, -56, 78, 50, 79, 101, 38, 114, 43, 23, -114, 2, -112, 43, -30, 96, -101, -11, 90, 20, -31, -42, -57, -55, -103, 119, 90, -40, -18, 85, -103, -65, 17, 122, -24, 66, -66, 93, 100, -119, 22, -21, -65, 41, -23, -100, -16, 86, 80, -14, -23, -92, 15, 9, 115, 15, 76, -71, 102, 6, 24, -87, -78, 127, -94, 56, -40, 61, 111, 6, 83, -95, -31, -115, 101, -70, -17, 69, 46, 102, 14, -97, 7, -55, -18, -120, 85, 65, -69, -87, 36, 21, 101, 33, -28, -24, 33, 38, -93, 109, -87, 63, 38, -86, 19, 127, -33, 64, 59, 67, 51, 71, 9, 60, -11, 43, 58, -51, 6, -42, -48, 15, 36, -68, 71, 56, -106, 40, -6, 122, 2, 102, -62, -100, -121, -67, -120, -103, 19, 36, 37, -34, -7, -57, 0, -26, -95, -128, 77, -102, -29, 3, -118, 5, 14, 105, 90, 11, 53, 110, 3, 123, 114, 53, 65, -51, 83, -6, -3, -29, 41, 111, 36, 1, -115, -1, -61, 108, 7, -108, 86, 19, -41, -38, 112, -127, 68, -61, -34, -118, 55, -116, 92, -128, -19, -112, 74, -46, 8, 32, 11, 11, 15, -57, 44, -81, 53, 58, -9, 42, 76, 64, -39, -22, -117], keyExchangeCounter:1, clientToServerCryptoAlgorithm:aes128-ctr, clientToServerMACAlgorithm:hmac-sha1-96, keyExchangeAlgorithm:diffie-hellman-group-exchange-sha1, serverHostKeyAlgorithm:ssh-rsa, serverToClientCryptoAlgorithm:aes128-ctr, serverToClientMACAlgorithm:hmac-sha1-96]
-cocacola
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
+[INFO] 2013-09-25 15:58:29.598 (quartzScheduler_Worker-3) job.EmarsysUploaderJob {} - ms : dateFile 201309170
