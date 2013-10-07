@@ -5,4 +5,4 @@ if [ ! -f logstash-1.2.1-flatjar.jar ]; then
   wget "https://download.elasticsearch.org/logstash/logstash/logstash-1.2.1-flatjar.jar"
 fi
 
-java -jar logstash-1.2.1-flatjar.jar agent -f prod.conf 
+java -jar logstash-1.2.1-flatjar.jar web -- agent -f prod.conf 
